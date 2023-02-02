@@ -1,0 +1,61 @@
+@import url("common/reset.css");
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .chat-con{
+    border: 1px solid;
+    box-sizing: border-box;
+    height: 80vh;
+    /* width: 60vh; */
+    flex: 0 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.chat .chat-con h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: purple;
+    color: aliceblue;
+}
+
+.chat .chat-con .connect{
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+}
+.chat .chat-con .chatWindow{
+    padding: 10px;
+    display: flex;
+    height: 50vh;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.chat .chat-con .chatWindow .chatWindow-con{
+    width: 100%;
+    overflow-y:scroll;
+}
+
+.chat .chat-con .footChat{
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+
+
+
